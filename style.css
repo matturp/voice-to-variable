@@ -1,0 +1,27 @@
+
+@font-face {
+  font-family: amstelvar;
+  font-style: normal;
+  src: url('assets/Amstelvar-Roman.ttf');
+}
+
+body {
+  font-family: amstelvar;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: #022b3a;
+}
+
+.variable {
+  color: #f1f1f1;
+  font-size: 100px;
+  font-variation-settings: 
+  'wght' 900,
+  'wdth' 100,
+  'opsz' 42.4,
+  'XOPQ' 225.18,
+  'GRAD' 83.96;
+}
